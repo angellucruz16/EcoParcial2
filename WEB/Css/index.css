@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap'); 
+#formulario{
+display: flex;
+flex-direction: column;
+width: 350px;
+margin-left: 15%;
+font-family: 'Roboto', sans-serif;
+margin-top: 180px;
+}
+#formulario input{
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 4%;
+}
+#formulario button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(3, 3, 80);
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ #buttons {
+     display: flex;
+     flex-direction: row;
+ }
+ .rate {
+    float: left;
+    height: 46px;
+    margin: 0px;
+  }
+  .rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    color:rgb(164, 164, 164);
+  }
+  .rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:rgb(219, 216, 216);
+  }
+  .rate:not(:checked) > label:before {
+    content: '★ ';
+  
+  }
+  .rate > input:checked ~ label {
+    color: #ffc700;
+  }
+  .rate:not(:checked) > label:hover,
+  .rate:not(:checked) > label:hover ~ label {
+    color: #ffc700;
+  }

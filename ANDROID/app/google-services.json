@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "806524372103",
+    "firebase_url": "https://ecoproyectos-c37a8-default-rtdb.firebaseio.com",
+    "project_id": "ecoproyectos-c37a8",
+    "storage_bucket": "ecoproyectos-c37a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806524372103:android:d0908eaa8d7c42f785a422",
+        "android_client_info": {
+          "package_name": "com.example.cineco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806524372103-gu0tgdnh0tfub7aqck7cd31nhmqm1mia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmo3Lo4T7BhtuZizCqif6mBtKhc-2WKMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806524372103-gu0tgdnh0tfub7aqck7cd31nhmqm1mia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
